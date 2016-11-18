@@ -9,17 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomepageComponent = (function () {
-    function HomepageComponent() {
+var ProposalShowComponent = (function () {
+    function ProposalShowComponent() {
     }
-    HomepageComponent = __decorate([
+    ProposalShowComponent = __decorate([
         core_1.Component({
-            selector: 'main-app',
-            template: '<h1>Freelance Bootcamp Homepage</h1>'
+            moduleId: module.id,
+            selector: 'proposal-show',
+            templateUrl: 'proposal-show.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], HomepageComponent);
-    return HomepageComponent;
+    ], ProposalShowComponent);
+    return ProposalShowComponent;
 }());
-exports.HomepageComponent = HomepageComponent;
-//# sourceMappingURL=homepage.component.js.map
+exports.ProposalShowComponent = ProposalShowComponent;
+//# sourceMappingURL=proposal-show.component.js.map

@@ -11,53 +11,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var DocumentsComponent = (function () {
     function DocumentsComponent() {
-<<<<<<< HEAD
-        this.pageTitle = "Documents Dashboard";
-        this.documents = [
-            {
-                title: "My First Doc",
-                description: 'asdfasdfasdf asdfasd',
-                file_url: 'http://google.com',
-                updated_at: '11/11/16',
-                image_url: 'http://google.com',
-            },
-            {
-                title: "My Second Doc",
-                description: 'asdfasdfasdf asdfasd',
-                file_url: 'http://google.com',
-                updated_at: '11/11/16',
-                image_url: 'http://google.com',
-            },
-            {
-                title: "My Last Doc",
-                description: 'asdfasdfasdf asdfasd',
-                file_url: 'http://google.com',
-                updated_at: '11/11/16',
-                image_url: 'http://google.com',
-=======
         this.pageTitle = "Document Dashboard";
         this.documents = [
             {
                 title: "My First Doc",
-                description: "gibberish asdfasdf",
-                file_url: "http://youtube.com",
-                updated_at: "11/16/16",
-                image_url: "http://youtube.com",
+                description: 'asdfasdfasdf asdfasd',
+                file_url: 'http://google.com',
+                updated_at: '11/11/16',
+                image_url: 'http://google.com',
             },
             {
                 title: "My Second Doc",
-                description: "gibberish asdfasdf",
-                file_url: "http://youtube.com",
-                updated_at: "11/16/16",
-                image_url: "http://youtube.com",
+                description: 'asdfasdfasdf asdfasd',
+                file_url: 'http://google.com',
+                updated_at: '11/11/16',
+                image_url: 'http://google.com',
             },
             {
                 title: "My Last Doc",
-                description: "gibberish asdfasdf",
-                file_url: "http://youtube.com",
-                updated_at: "11/16/16",
-                image_url: "http://youtube.com",
->>>>>>> master
+                description: 'asdfasdfasdf asdfasd',
+                file_url: 'http://google.com',
+                updated_at: '11/11/16',
+                image_url: 'http://google.com',
             }
         ];
     }
