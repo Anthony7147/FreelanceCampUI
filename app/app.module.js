@@ -10,10 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+<<<<<<< HEAD
+=======
+var forms_1 = require('@angular/forms');
+>>>>>>> master
 var app_component_1 = require('./app.component');
 var homepage_component_1 = require('./homepage/homepage.component');
 var documents_component_1 = require('./documents/documents.component');
 var proposal_list_component_1 = require('./proposal/proposal-list.component');
+<<<<<<< HEAD
+=======
+var proposal_new_component_1 = require('./proposal/proposal-new.component');
+>>>>>>> master
 var app_routing_module_1 = require('./app-routing.module');
 var AppModule = (function () {
     function AppModule() {
@@ -22,13 +30,23 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [
                 platform_browser_1.BrowserModule,
+<<<<<<< HEAD
                 app_routing_module_1.AppRoutingModule
+=======
+                app_routing_module_1.AppRoutingModule,
+                forms_1.FormsModule
+>>>>>>> master
             ],
             declarations: [
                 app_component_1.AppComponent,
                 homepage_component_1.HomepageComponent,
                 documents_component_1.DocumentsComponent,
+<<<<<<< HEAD
                 proposal_list_component_1.ProposalListComponent
+=======
+                proposal_list_component_1.ProposalListComponent,
+                proposal_new_component_1.ProposalNewComponent
+>>>>>>> master
             ],
             bootstrap: [
                 app_component_1.AppComponent

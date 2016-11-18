@@ -7,6 +7,7 @@ import { Document } from './document';
 	templateUrl: 'documents.component.html'
 })
 export class DocumentsComponent {
+
 	pageTitle: string = "Documents Dashboard"
 	
 	documents: Document[] = [
@@ -30,6 +31,7 @@ export class DocumentsComponent {
 			file_url: 'http://google.com',
 			updated_at: '11/11/16',
 			image_url: 'http://google.com',
+
 		}
 	]
 }
