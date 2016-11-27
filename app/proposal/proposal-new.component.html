@@ -1,10 +1,14 @@
-<h1>Create a Proposal</h1>
+<div class="card container form-container">
+	<div class='row'>
 
-<div>
-	<form #proposalForm="ngForm">
-		<div class="form-group">
-			<label for="customer">Customer Name</label>
-			<input type="text"
+		<div class="col-md-6">
+			<h1>Create a Proposal</h1>
+
+	<div>
+		<form #proposalForm="ngForm">
+			<div class="form-group">
+				<label for="customer">Customer Name</label>
+				<input type="text"
 							id="customer"
 							placeholder="ABC Company"
 							required
@@ -100,9 +104,11 @@
 
 	</form>
 </div>
+		</div>
 
-<div>
-	<p>Hi {{ proposal.customer }},</p>
+		<div class="col-md-6">
+			<div>
+				<p>Hi {{ proposal.customer }},</p>
 
 
 	<p>It was a pleasure getting to meet with you and review your project requirements, I believe it is a great fit for the types of applications that I build out. Please feel free to check out some of my past projects <a href="{{ proposal.portfolio_url }}">here</a>.</p>
@@ -121,4 +127,7 @@
 
 
 	<p>I am excited to working with you and build out this project.</p>
+		</div>
+	</div>
+ </div>
 </div>
